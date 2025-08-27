@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = []; // Lista para armazenar números já sorteados
-let numLimite = 100; // Limite máximo para o número secreto
+let numLimite = 200; // Limite máximo para o número secreto
 let numeroSecreto = gerarNumAleatorio(); // Gera o número secreto ao iniciar o jogo
 let tentativas = 1; // Contador de tentativas
 
