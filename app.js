@@ -11,7 +11,7 @@ function exibirTextoNaTela (tag, texto) { // Função para exibir texto em um el
 
 function exibirMensagemInicial() { // Função para exibir a mensagem inicial do jogo
     exibirTextoNaTela('h1', 'Jogo do Numero Secreto'); // Exibe o título do jogo
-    exibirTextoNaTela('p', `Descubra o número secreto entre 1 e ${numLimite}`); // Exibe a instrução para o jogador
+    exibirTextoNaTela('p', `Adivinhe o número secreto entre 1 e ${numLimite}`); // Exibe a instrução para o jogador
 }
 
 exibirMensagemInicial(); // Chama a função para exibir a mensagem inicial ao carregar a página
